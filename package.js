@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   api.use('jquery', 'client');
 
   api.addFiles([
-    'selectize/dist/css/selectize.default.css',
+    //'selectize/dist/css/selectize.default.css',
     'selectize/dist/js/standalone/selectize.js'
   ], ['client']);
 
